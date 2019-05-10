@@ -1,26 +1,9 @@
-/* -------------------------------------------- POPOVER (=PAROLE MAGICHE) --------------------------------------------*/
+
+/* -------------------------------------------- POPOVER BOOTSTRAP  --------------------------------------------*/
 
 $(function () {
 	$('[data-toggle="popover"]').popover()
 })
-
-/* -------------------------------------------- TIMELINE ANIMATION --------------------------------------------*/
-
-
-
-$(document).ready(function () {
-	$(".mobile-filter").click(function () {
-		$("#mobile-group").toggle();
-	});
-
-	$(".fixed-filter").click(function () {
-		$("#fixed-gruop").toggle();
-	});
-	$(".population-filter").click(function () {
-		$("#population-gruop").toggle();
-	});
-
-
 
 	/* -------------------------------------------- TIMELINE ANIMATION --------------------------------------------*/
 
@@ -36,4 +19,22 @@ $(document).ready(function () {
 		$("#timeline .btn-info").addClass('nascosto');
 		$(".info-tim").removeClass('nascosto');
 	});
+
+
+
+/* -------------------------------------------- MOBILE-FIXED --------------------------------------------*/
+
+
+$(document).ready(function(){
+    $(".mobile-filter").click(function(){
+		$("#subscription #mobile-group").toggle();
+    });
+	$(".fixed-filter").click(function(){
+		$("#subscription #fixed-group").toggle();
+    });
+	$(".population-filter").click(function(){
+		$("#subscription #population-group").toggle();
+    });
 });
+
+

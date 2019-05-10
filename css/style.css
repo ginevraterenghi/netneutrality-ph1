@@ -1,3 +1,44 @@
+/*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
+
+/*! Homepage text */
+
+.label {
+	background-color: rgba(255, 255, 255, 0.8);
+	opacity: .8;
+	opacity: inherit;
+	padding: 20px;
+	color: #011ac2;
+	
+}
+
+.title_super {
+	font-family: 'Oswald', sans-serif;
+	font-size: 65px;
+	font-weight: 700;
+	color: #011ac2;
+}
+
+.subtitle_super {
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	color: #011ac2;
+	display: block;
+}
+
+/*!  homepage structure  */
+
+.homepage {
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+
+#pattern {
+	width: auto;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/pattern02.jpg);
+}
 
 
 /*! --------------------------------- BACKGROUND SECTION COLOR --------------------------------- */
@@ -21,9 +62,9 @@
 }
 
 #background_deepblue {
-  background-color: #011c7c;
-  padding-top: 20px;
-  padding-bottom: 20px;
+	background-color: #010d61;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /*! ------------------------------------------ TEXT --------------------------------------------- */
@@ -36,7 +77,7 @@
 	font-style: bold;
 	color: #011ac2;
 	padding-top: 40px;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 
@@ -46,7 +87,7 @@
 	font-style: bold;
 	color: white;
 	padding-top: 40px;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 
@@ -58,14 +99,14 @@
 	color: white;
 	font-style: bold;
 	padding-top: 40px;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .subtitle_white {
 	font-size: 15pt;
 	font-family: 'Inconsolata', monospace;
 	color: white;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .text_white {
@@ -77,7 +118,7 @@
 	margin: 30px;
 	column-count: 2;
 	column-gap: 80px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 /*! Blue text */
@@ -87,15 +128,34 @@
 	font-family: 'Inconsolata', monospace;
 	color: #011ac2;
 	padding-top: 40px;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .subtitle_blue {
 	font-size: 15pt;
 	font-family: 'Inconsolata', monospace;
 	color: #011ac2;
+	padding-left: 30px;
+	margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.subtitle_blue_mini {
+	font-size: 15pt;
+	font-family: 'Inconsolata', monospace;
+	color: #011ac2;
+	padding-left: 30px;
+	margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.subtitle_blue_mini2 {
+	font-size: 15pt;
+	font-family: 'Inconsolata', monospace;
+	color: #011ac2;
 	padding-left: 20px;
-    padding-bottom: 20px;
+	margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 .text_blue {
@@ -107,14 +167,14 @@
 	margin: 30px;
 	column-count: 2;
 	column-gap: 80px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 
 /*! White text */
 
 .text_grey {
-font-family: 'Rajdhani', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
 	text-align: justify;
 	color: #333333;
@@ -122,15 +182,16 @@ font-family: 'Rajdhani', sans-serif;
 	margin: 30px;
 	column-count: 2;
 	column-gap: 80px;
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .text_grey_nocolumn {
 	font-family: 'Rajdhani', sans-serif;
 	text-align: justify;
-	color: #333333; !important 
-	font-size: 14px;
+	color: #333333;
+	!important font-size: 14px;
 	line-height: 1.6;
+	padding-right: 80px;
 }
 
 
@@ -139,18 +200,17 @@ font-family: 'Rajdhani', sans-serif;
 .text_center {
 	font-family: 'Inconsolata', monospace;
 	text-align: center;
-	color: white; 
+	color: white;
 	font-size: 18px;
 	margin: 30px;
 }
 
 /*! Testi affiancati */
 
-
 .text_number {
 	font-family: 'Rajdhani', sans-serif;
 	text-align: justify;
-	color: #011ac2; 
+	color: #011ac2;
 	font-size: 35px;
 	line-height: 1.6;
 	margin: 30px;
@@ -168,7 +228,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .list_footer {
 	font-family: 'Rajdhani', sans-serif;
-	color:  white;
+	color: white;
 	font-size: 14px;
 	line-height: 1.5;
 	margin-bottom: 20px;
@@ -178,127 +238,74 @@ font-family: 'Rajdhani', sans-serif;
 
 
 
-/*! --------------------------------- REFERENCE --------------------------------- */
+/*! --------------------------------- Text Reference --------------------------------- */
 
 .link_appareance {
 	font-family: 'Inconsolata', monospace;
-	text-align:right;
-	color: grey; 
-	font-size: 12px;
+	text-align: right;
+	color: grey;
+	font-size: 14px;
 }
 
-.text_reference{
+.text_reference {
 	font-family: 'Inconsolata', monospace;
-	text-align:right;
-	color: grey; 
-	font-size: 12px;
+	text-align: right;
+	color: grey;
+	font-size: 14px;
 	margin: 30px;
 }
 
-.text_reference_white{
+.text_reference_white {
 	font-family: 'Inconsolata', monospace;
-	text-align:right;
-	color: white; 
-	font-size: 12px;
+	text-align: right;
+	color: white;
+	font-size: 14px;
 	margin: 30px;
 }
 
 .link_appareance_white {
 	font-family: 'Inconsolata', monospace;
-	text-align:right;
-	color: white; 
-	font-size: 12px;
-
-}
-
-/*! --------------------------------- RETTANGOLI - BORDER --------------------------------- */
-
-/*! Rectangle x 3 */
-
-.div_border_orange {
-	width: 100px;
-	height: 220px;	
-	border: 5px solid #F06024;
-	margin: 5;
-	padding-bottom: 20px;
-   
-}
-
-.title_border_orange {
-	font-family: 'Inconsolata', monospace;
-	text-align: center;
-    font-weight: bold;
-	color: white; 
-	font-size: 16px;
-	line-height: 1.4;
-     margin: 20px;
-}
-
-.text_border {
-	font-family: 'Inconsolata', monospace;
-	text-align: left;
-	color: white; 
+	text-align: right;
+	color: white;
 	font-size: 14px;
-	line-height: 1.4;
+
 }
 
-/*! Rectangle Law */
-
-.div_border_blue {
-	width: 100px;
-	height: auto;	
-	border: 5px solid #011ac2;
-	margin: 5;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: white;
-}
-
-.text_border_black {
-	font-family: 'Inconsolata', monospace;
-	text-align: left;
-	color: black; 
-	font-size: 13px;
-	line-height: 1.4;
-}
-
-.text_border_underline {
-	font-family: 'Inconsolata', monospace;
-	text-align: left;
-	color: black; 
-	text-decoration: underline solid #011ac2;
-	font-size: 13px;
-	line-height: 1.4;
-}
 
 
 /*! --------------------------------- POP UP --------------------------------- */
 
+.popover-body {
+    padding-left: 10px;
+	padding-right:10px;
+	text-align: left;
+	margin:auto;
+    color: #011AC2;
+    border: white;
+	
+}
+
 .pop_appareance_white {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
 	font-style: bold;
     color: #011ac2;
+	background: white;
 	border: none;
-    background: white;
 	border-radius: 0;
 	line-height: 0.4;
-    transition: none;
     cursor: pointer;
-    opacity: 1
+	
 }
 .pop_appareance_white:hover {
-    font-family: 'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 	font-size: 16px;
-	font-style: bold;
     color: #011ac2;
 	border: none;
-    background: white;
 	border-radius: 0;
 	line-height: 0.4;
-    transition: none;
     cursor: pointer;
-    opacity: 1
+    opacity: 1;
 }
 
 .pop_appareance_blue {
@@ -329,44 +336,6 @@ font-family: 'Rajdhani', sans-serif;
 }
 
 
-/*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
-
-/*! Homepage text */
-
-.title_super{
-	font-family: 'Oswald', sans-serif;
-	font-size: 40pt;
-	font-style: medium;
-	color: #011AC2;
-}
-
-.subtitle_super {
-	font-family: 'Inconsolata', monospace;
-	font-size: 10pt;
-	color: #011ac2;
-	display: block;
-}
-
-.label {
-	background-color: white;
-	opacity: .8;
-	padding:20px;
-}
-
-/*!  homepage structure  */
-
-.homepage {
-	height: 100vh;
-	position: relative;
-	text-align: center;
-}
-
-#pattern {
-	width: auto;
-	background-position: center;
-    background-size:cover;
-	background-image: url(../img/pattern.jpg);
-}
 
 
 /*! ------------------------------------------ NAVBAR ------------------------------------------ */
@@ -388,8 +357,7 @@ font-family: 'Rajdhani', sans-serif;
 /*! Timeline - container */
 
 #timeline {
-	max-width: none !important;
-	width: 85% ;
+	width: 85%;
 	height: auto;
 	padding-top: 20px;
 }
@@ -397,84 +365,125 @@ font-family: 'Rajdhani', sans-serif;
 
 /*! Timeline - SVG css */
 
-		.timeline-1, .timeline-3 {
-			fill: #011ac2;
-		}
+.timeline-1,
+.timeline-12,
+.timeline-14,
+.timeline-16,
+.timeline-17,
+.timeline-20,
+.timeline-22,
+.timeline-6,
+.timeline-7,
+.timeline-8 {
+	fill: none;
+}
 
-		.timeline-10, .timeline-17, .timeline-2, .timeline-7, .timeline-9 {
-			fill: none;
-		}
+.timeline-1,
+.timeline-12,
+.timeline-17 {
+	stroke: #011ac2;
+}
 
-		.timeline-10, .timeline-2, .timeline-7 {
-			stroke: #31459c;
-		}
+.timeline-1,
+.timeline-10,
+.timeline-12,
+.timeline-14,
+.timeline-15,
+.timeline-16,
+.timeline-17,
+.timeline-19,
+.timeline-20,
+.timeline-22,
+.timeline-6,
+.timeline-7,
+.timeline-8 {
+	stroke-miterlimit: 10;
+}
 
-		.timeline-10, .timeline-17, .timeline-19, .timeline-2, .timeline-4, .timeline-7, .timeline-8, .timeline-9 {
-			stroke-miterlimit: 10;
-		}
+.timeline-1,
+.timeline-6,
+.timeline-7 {
+	stroke-width: 2px;
+}
 
-		.timeline-3, .timeline-6 {
-			font-size: 22px;
-			font-family: Rajdhani-Medium, Rajdhani;
-		}
+.timeline-2 {
+	fill: #011ac2;
+	cursor: pointer;
+}
 
-		.timeline-15, .timeline-18, .timeline-19, .timeline-4, .timeline-6, .timeline-8 {
-			fill: #fff;
-		}
+.timeline-3 {
+	fill: #ee4453;
+	cursor: pointer;
+}
 
-		.timeline-17, .timeline-4 {
-			stroke: #ef4553;
-		}
+.timeline-4 {
+	fill: #fde710;
+	cursor: pointer;
+}
 
-		.timeline-10, .timeline-4, .timeline-8, .timeline-9 {
-			stroke-width: 3px;
-		}
+.timeline-5,
+.timeline-9 {
+	font-size: 16px;
+	font-family: Inconsolata-Regular, Inconsolata;
+}
 
-		.timeline-15, .timeline-5 {
-			font-size: 18px;
-		}
+.timeline-5 {
+	fill: #070808;
+}
 
-		.timeline-14, .timeline-5 {
-			fill: #010101;
-		}
+.timeline-10,
+.timeline-14,
+.timeline-20,
+.timeline-6 {
+	stroke: #ee4453;
+}
 
-		.timeline-5 {
-			font-family: Rajdhani-Regular, Rajdhani;
-			cursor:pointer;
-		}
+.timeline-15,
+.timeline-16,
+.timeline-19,
+.timeline-7 {
+	stroke: #fde710;
+}
 
-		.timeline-7 {
-			stroke-width: 2px;
-		}
+.timeline-8 {
+	stroke: #58595b;
+}
 
-		.timeline-19, .timeline-8, .timeline-9 {
-			stroke: #fee813;
-		}
+.timeline-10,
+.timeline-14,
+.timeline-15,
+.timeline-16,
+.timeline-17,
+.timeline-8 {
+	stroke-width: 3px;
+}
 
-		.timeline-11 {
-			fill: #ef4553;
-		}
+.timeline-10,
+.timeline-15,
+.timeline-18,
+.timeline-19 {
+	fill: #fff;
+}
 
-		.timeline-12 {
-			fill: #fee813;
-		}
+.timeline-11,
+.timeline-18 {
+	font-size: 18px;
+	font-family: Rajdhani-Regular, Rajdhani;
+}
 
-		.timeline-13, .timeline-14 {
-			font-size: 16px;
-			font-family: Inconsolata-Regular, Inconsolata;
-		}
+.timeline-13 {
+	font-size: 22px;
+	fill: #404041;
+	font-family: Rajdhani-Medium, Rajdhani;
+}
 
-		.timeline-13 {
-			fill: #090909;
-		}
+.timeline-21 {
+	fill: #30449b;
+}
 
-		.timeline-15 {
-			font-family: Abel-Regular, Abel;
-		}
-
-		.timeline-16 {
-			letter-spacing: -0.01em;
-		}
+.timeline-22 {
+	stroke: #30449b;
+}
 
 
 /*! Timeline - Java */
@@ -491,97 +500,94 @@ font-family: 'Rajdhani', sans-serif;
 
 /*! Map - Svg style */
 
-  .map-1, .map-2, .map-20, .map-22, .map-6, .map-8 {
-        fill: none;
-      }
-
-      .map-2, .map-3 {
-        stroke: #b1b1b1;
-      }
-
-      .map-2, .map-20, .map-22, .map-3, .map-6, .map-8 {
-        stroke-miterlimit: 10;
+ .map-1 {
+        fill: #f4f2f2;
       }
 
       .map-2 {
-        stroke-width: 0.75px;
+        fill: #010d61;
       }
 
       .map-3 {
-        fill: url(#text_aa);
+        fill: #d3daf4;
       }
 
       .map-4 {
-        fill: #586fdd;
+        fill: #ffe919;
       }
 
       .map-5 {
-        fill: #e4e8f9;
-      }
-
-      .map-6 {
-        stroke: #6d6e70;
-      }
-
-      .map-7 {
         fill: #011ac2;
       }
 
-      .map-8 {
+      .map-19, .map-22, .map-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .map-6 {
         stroke: #dee1f1;
         stroke-width: 0.7px;
       }
 
-      .map-9 {
-        fill: #041e59;
+      .map-7 {
+        fill: #ff5f19;
       }
 
-      .map-10, .map-11, .map-12, .map-15, .map-19, .map-21 {
+      .map-10, .map-13, .map-17, .map-20, .map-8, .map-9 {
         font-size: 16px;
       }
 
-      .map-10, .map-11, .map-12, .map-15 {
+      .map-10, .map-13, .map-8, .map-9 {
         font-family: Rajdhani-Regular, Rajdhani;
       }
 
-      .map-10 {
+      .map-8 {
         letter-spacing: 0em;
       }
 
-      .map-12, .map-13 {
+      .map-10, .map-11 {
+        letter-spacing: 0em;
+      }
+
+      .map-12 {
+        letter-spacing: 0em;
+      }
+
+      .map-13 {
         letter-spacing: 0em;
       }
 
       .map-14 {
-        letter-spacing: 0em;
-      }
-
-      .map-15 {
-        letter-spacing: 0em;
-      }
-
-      .map-16 {
         fill: #9ea8d4;
       }
 
+      .map-15 {
+        fill: #f24452;
+      }
+
+      .map-16 {
+        fill: #818181;
+      }
+
       .map-17 {
-        fill: #868da3;
-      }
-
-      .map-18 {
-        fill: #9ba9eb;
-      }
-
-      .map-19 {
         fill: #070808;
       }
 
-      .map-19, .map-21 {
+      .map-17, .map-20 {
         font-family: Inconsolata-Regular, Inconsolata;
       }
 
-      .map-20 {
+      .map-18 {
+        fill: #010d61;;
+      }
+
+      .map-19 {
         stroke: #000;
+      }
+
+      .map-21 {
+        fill: #dde2f2;
       }
 
       .map-22 {
@@ -591,119 +597,141 @@ font-family: 'Rajdhani', sans-serif;
 
 
 
-/*! ------------------------------------------ INTERENT USER ------------------------------------------ */
+/*! ------------------------------------------ INTERNET USER ------------------------------------------ */
+
+/*! Internet user container */
+
+#user {
+	    margin-top: 60px;
+}
+
 
 /*! SVG style */
 
-   .user-1,
- .user-10,
- .user-11,
- .user-12,
- .user-13,
- .user-14,
- .user-3,
- .user-6,
- .user-8,
- .user-9 {
-     fill: none;
- }
+.user-1,
+.user-6 {
+	opacity: 0.15;
+}
 
- .user-1,
- .user-11,
- .user-12,
- .user-13,
- .user-14,
- .user-3,
- .user-8,
- .user-9 {
-     stroke: #30449b;
- }
+.user-12,
+.user-14,
+.user-15,
+.user-16,
+.user-2,
+.user-3,
+.user-5,
+.user-6,
+.user-7,
+.user-8,
+.user-9 {
+	fill: none;
+}
 
- .user-1 {
-     stroke-linejoin: round;
- }
+.user-14,
+.user-15,
+.user-2,
+.user-3,
+.user-5,
+.user-6,
+.user-7,
+.user-9 {
+	stroke: #30449b;
+}
 
- .user-2 {
-     font-size: 16px;
-     font-family: Rajdhani-Regular, Rajdhani;
- }
+.user-12,
+.user-15,
+.user-16,
+.user-2,
+.user-3,
+.user-5,
+.user-6,
+.user-7,
+.user-8,
+.user-9 {
+	stroke-miterlimit: 10;
+}
 
- .user-3 {
-     stroke-linecap: round;
- }
+.user-2,
+.user-3,
+.user-5,
+.user-6,
+.user-7,
+.user-9 {
+	stroke-width: 0.7px;
+}
 
- .user-10,
- .user-11,
- .user-12,
- .user-13,
- .user-14,
- .user-3,
- .user-6,
- .user-8,
- .user-9 {
-     stroke-miterlimit: 10;
- }
+.user-3 {
+	stroke-dasharray: 4.95 2.97;
+}
 
- .user-4 {
-     fill: gray;
- }
+.user-11,
+.user-4 {
+	font-size: 12px;
+}
 
- .user-5 {
-     fill: #f06024;
- }
+.user-13,
+.user-4 {
+	font-family: Rajdhani-Regular, Rajdhani;
+}
 
- .user-6 {
-     stroke: #f06024;
-     stroke-width: 2px;
- }
+.user-5 {
+	stroke-dasharray: 5.03 3.02;
+}
 
- .user-12,
- .user-16,
- .user-7 {
-     opacity: 0.15;
- }
+.user-6 {
+	stroke-dasharray: 5 3;
+}
 
- .user-11,
- .user-12,
- .user-13,
- .user-14,
- .user-8,
- .user-9 {
-     stroke-width: 0.7px;
- }
+.user-7 {
+	stroke-dasharray: 4.98 2.99;
+}
 
- .user-9 {
-     stroke-dasharray: 5.04 3.02;
- }
+.user-8 {
+	stroke: #000;
+}
 
- .user-10 {
-     stroke: #000;
- }
+.user-9 {
+	stroke-dasharray: 4.97 2.98;
+}
 
- .user-11 {
-     stroke-dasharray: 5.03 3.02;
- }
+.user-10 {
+	fill: #f06024;
+}
 
- .user-12 {
-     stroke-dasharray: 5 3;
- }
+.user-11 {
+	font-family: Inconsolata-Regular, Inconsolata;
+}
 
- .user-13 {
-     stroke-dasharray: 4.98 2.99;
- }
+.user-12,
+.user-16 {
+	stroke: #f06024;
+}
 
- .user-14 {
-     stroke-dasharray: 4.97 2.98;
- }
+.user-12,
+.user-14,
+.user-15 {
+	stroke-width: 2px;
+}
 
- .user-15 {
-     font-size: 14px;
-     font-family: Inconsolata-Regular, Inconsolata;
- }
+.user-13 {
+	font-size: 14px;
+}
 
- .user-16 {
-     fill: #b3b2b3;
- }
+.user-14 {
+	stroke-linejoin: round;
+}
+
+.user-15 {
+	stroke-linecap: round;
+}
+
+.user-16 {
+	stroke-width: 3px;
+}
+
+.user-17 {
+	fill: gray;
+}
 
 /*! SVG interaction */
 
@@ -731,121 +759,232 @@ font-family: 'Rajdhani', sans-serif;
 
 /*! ------------------------------------------ MOBILE VS FIXED ------------------------------------------ */
 
+/*! Svg container */
+
+#subscription {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+
+
 /*! Svg style */
 
-      .subscription-1, .subscription-2, .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
+ .subscription-1, .subscription-10, .subscription-2, .subscription-3 {
         fill: none;
       }
 
-      .subscription-10, .subscription-2 {
-        stroke: #b1b1b1;
+      .subscription-1, .subscription-2, .subscription-3 {
+        stroke: #b3b2b3;
       }
 
-      .subscription-10, .subscription-11, .subscription-12, .subscription-13, .subscription-2, .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
+      .subscription-1, .subscription-10, .subscription-11, .subscription-2, .subscription-3, .subscription-8, .subscription-9 {
         stroke-miterlimit: 10;
       }
 
       .subscription-2 {
-        stroke-width: 0.75px;
+        stroke-dasharray: 3.01 2.01;
       }
 
-      .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
-        stroke: #b3b2b3;
+      .subscription-3 {
+        stroke-dasharray: 2.99 1.99;
       }
 
       .subscription-4 {
-        stroke-dasharray: 3 2;
+        font-size: 14px;
       }
 
-      .subscription-5 {
-        stroke-dasharray: 3 2;
-      }
-
-      .subscription-6 {
-        stroke-dasharray: 3 2;
-      }
-
-      .subscription-7, .subscription-9 {
-        font-size: 16px;
-      }
-
-      .subscription-7 {
+      .subscription-4, .subscription-5 {
         font-family: Rajdhani-Regular, Rajdhani;
       }
 
-      .subscription-8 {
+      .subscription-5, .subscription-7 {
+        font-size: 12px;
+      }
+
+      .subscription-6 {
         fill: gray;
       }
 
-      .subscription-9 {
-        font-size: 14px;
+      .subscription-7 {
         fill: #070808;
         font-family: Inconsolata-Regular, Inconsolata;
       }
 
-      .subscription-10 {
-        fill: url(#text_aa);
-      }
-
-      .subscription-11 {
+      .subscription-8 {
         fill: #9ba9eb;
         stroke: #9ba9eb;
       }
 
-      .subscription-12 {
+      .subscription-9 {
         fill: #011ac2;
         stroke: #011ac2;
+		cursor: pointer;
       }
 
-      .subscription-13 {
-        fill: #011AC2;
-        stroke: #011AC2;
+      .subscription-10 {
+        stroke: #f15a24;
       }
+
+      .subscription-11 {
+        fill: #586fdd;
+        stroke: #586fdd;
+		  cursor: pointer;
+      }
+
+
+/*! --------------------------------- RETTANGOLI - BORDER --------------------------------- */
+
+/*! Rectangle x 3 */
+
+
+.div_border_orange {
+	border: 5px solid #F06024;
+	margin-right: 20px;
+	margin-left: 40px;
+	padding-bottom: 40px;
+
+}
+
+.title_border_orange_white {
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.text_border_white {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: white;
+	line-height: 1.6;
+	margin: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*! Rectangle Law */
+
+.div_border_blue {
+	width: 100px;
+	height: auto;
+	border: 5px solid #011ac2;
+	margin: 5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+.text_border_black {
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	color: black;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.text_border_underline {
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	color: black;
+	text-decoration: underline solid #011ac2;
+	font-size: 13px;
+	line-height: 1.4;
+}
 
 
 
 /*! ------------------------------------------ ZERO RATING CASE ------------------------------------------ */
 
+/*! Zero rating - container */
+
+#zero{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /*! Zero rating - Svg style */
 
-
-    .zero-1 {
-        isolation: isolate;
+  .zero-1, .zero-2 {
         font-size: 14px;
+      }
+
+      .zero-1 {
         font-family: Rajdhani-Regular, Rajdhani;
       }
 
       .zero-2 {
-        fill: #58595b;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .zero-10, .zero-11, .zero-3, .zero-4, .zero-5, .zero-6, .zero-7, .zero-8, .zero-9 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
       }
 
       .zero-3 {
-        fill: #818181;
+        stroke: #666;
       }
 
       .zero-4 {
-        fill: none;
+        stroke: #6d6e70;
+      }
+
+      .zero-5 {
+        stroke: #a0306e;
+      }
+
+      .zero-6 {
+        stroke: #586fdd;
+      }
+
+      .zero-7 {
         stroke: #011ac2;
-        stroke-miterlimit: 10;
-        stroke-width: 4px;
-      }  
+      }
+
+      .zero-8 {
+        stroke: #f24452;
+      }
+
+      .zero-9 {
+        stroke: #ffda00;
+      }
+
+      .zero-10 {
+        stroke: #ff5f19;
+      }
+
+      .zero-11 {
+        stroke: #00a480;
+      }
+
+
+
+
 
 
 /*! Zero rating - Svg interaction */
 
-#vodafone g {
+#vodafone > g {
 	opacity: 0.15
 }
 
-#vodafone:hover >g {
+ #vodafone:hover  > g {
 	opacity: 1
 }
 
-#orange g {
+#orange > g {
 	opacity: 0.15
 }
 
-#orange:hover >g {
+#orange:hover > g {
 	opacity: 1
 }
 
@@ -853,7 +992,7 @@ font-family: 'Rajdhani', sans-serif;
 	opacity: 0.15
 }
 
-#tmobile:hover >g {
+#tmobile:hover > g {
 	opacity: 1
 }
 
@@ -861,7 +1000,7 @@ font-family: 'Rajdhani', sans-serif;
 	opacity: 0.15
 }
 
-#telenor:hover >g {
+#telenor:hover > g {
 	opacity: 1
 }
 
@@ -869,159 +1008,221 @@ font-family: 'Rajdhani', sans-serif;
 	opacity: 0.15
 }
 
-#telia:hover >g {
+#telia:hover > g {
 	opacity: 1
 }
-
 
 #bite g {
 	opacity: 0.15
 }
 
-#bite:hover >g {
+#bite:hover > g {
 	opacity: 1
 }
 
-#mobistar {
+#mobistar g {
 	opacity: 0.15
 }
 
-#mobistar:hover >g {
+#mobistar:hover > g {
 	opacity: 1
 }
 
-#polkomtel {
+#polkomtel g {
 	opacity: 0.15
 }
 
-#polkomtel:hover >g {
+#polkomtel:hover > g {
 	opacity: 1
 }
 
 
 /*!-------------------------------------------- ACCUSE TIMELINE ------------------------------------------ */
+
 /*! Accuse - Svg style */
-
-  .accuse-1, .accuse-10, .accuse-11, .accuse-12, .accuse-13, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-2, .accuse-4, .accuse-9 {
-        fill: none;
-      }
-
-      .accuse-1, .accuse-2 {
-        stroke: gray;
-      }
-
-      .accuse-1, .accuse-10, .accuse-11, .accuse-12, .accuse-13, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-2, .accuse-20, .accuse-4, .accuse-9 {
-        stroke-miterlimit: 10;
-      }
-
-      .accuse-2 {
-        stroke-dasharray: 3.01 2.01;
-      }
-
-      .accuse-3 {
-        fill: #b3b3b3;
-      }
-
-      .accuse-10, .accuse-4, .accuse-9 {
-        stroke: #b3b3b3;
-      }
-
-      .accuse-4 {
-        stroke-width: 0.6px;
-      }
-
-      .accuse-5, .accuse-7 {
+ .accuse-1, .accuse-13 {
         font-size: 12px;
       }
 
-      .accuse-5, .accuse-7, .accuse-8 {
-        font-family: Rajdhani-Regular, Rajdhani;
+      .accuse-1 {
+        font-family: Inconsolata-Regular, Inconsolata;
       }
 
-      .accuse-18, .accuse-20, .accuse-6, .accuse-7 {
+      .accuse-10, .accuse-11, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-2, .accuse-21, .accuse-22, .accuse-23, .accuse-24, .accuse-8, .accuse-9 {
+        fill: none;
+      }
+
+      .accuse-2, .accuse-22, .accuse-23, .accuse-24 {
+        stroke: gray;
+      }
+
+      .accuse-10, .accuse-11, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-2, .accuse-21, .accuse-22, .accuse-23, .accuse-24, .accuse-4, .accuse-6, .accuse-8, .accuse-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .accuse-2, .accuse-23 {
+        stroke-width: 5px;
+      }
+
+      .accuse-3 {
+        fill: #ff5f19;
+      }
+
+      .accuse-4, .accuse-6 {
         fill: #fff;
+        stroke-width: 2px;
       }
 
-      .accuse-8 {
-        font-size: 14px;
+      .accuse-4 {
+        stroke: #ff5f19;
+      }
+
+      .accuse-5 {
+        fill: #011ac2;
+      }
+
+      .accuse-6 {
+        stroke: #011ac2;
+      }
+
+      .accuse-7 {
+        fill: #666;
+      }
+
+      .accuse-10, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-19, .accuse-8, .accuse-9 {
+        stroke: #ccc;
+      }
+
+      .accuse-9 {
+        stroke-dasharray: 2.99 1.99;
       }
 
       .accuse-10 {
         stroke-dasharray: 2.99 1.99;
       }
 
-      .accuse-11, .accuse-15, .accuse-18 {
-        stroke: #011ac2;
+      .accuse-11, .accuse-21 {
+        stroke: #333;
       }
 
-      .accuse-11, .accuse-12, .accuse-13, .accuse-18, .accuse-20 {
-        stroke-width: 2px;
+      .accuse-12 {
+        font-size: 14.13px;
       }
 
-      .accuse-11, .accuse-12, .accuse-14, .accuse-18 {
-        opacity: 0.15;
+      .accuse-12, .accuse-13 {
+        fill: #404041;
+        font-family: Rajdhani-Medium, Rajdhani;
       }
 
-      .accuse-12, .accuse-13, .accuse-14, .accuse-16, .accuse-17 {
-        stroke: #ff5f19;
+      .accuse-14 {
+        stroke-dasharray: 2.99 1.99;
       }
 
-      .accuse-13, .accuse-17, .accuse-18 {
-        stroke-dasharray: 5 3;
+      .accuse-15 {
+        stroke-dasharray: 2.99 1.99;
       }
 
-      .accuse-13 {
-        opacity: 0.1;
+      .accuse-16 {
+        stroke-dasharray: 2.99 1.99;
       }
 
-      .accuse-15, .accuse-16, .accuse-17 {
-        stroke-width: 4px;
+      .accuse-17 {
+        stroke-dasharray: 2.99 1.99;
+      }
+
+      .accuse-18 {
+        stroke-dasharray: 2.99 1.99;
       }
 
       .accuse-19 {
-        fill: #818181;
+        stroke-dasharray: 2.98 1.99;
       }
 
       .accuse-20 {
-        stroke: #818181;
-      }
-
-      .accuse-21 {
-        font-size: 16px;
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-
-/*! ------------------------------------------ BIG NUMBER GINNI ------------------------------------------ */
-
-   .bg-1, .bg-2, .bg-3 {
-        isolation: isolate;
-        fill: #ff5f19;
-      }
-
-      .bg-1 {
-        font-size: 17px;
-      }
-
-      .bg-1, .bg-2 {
+        font-size: 14px;
         font-family: Rajdhani-Regular, Rajdhani;
       }
 
-      .bg-2 {
-        font-size: 20px;
+      .accuse-21, .accuse-22, .accuse-23 {
+        stroke-dasharray: 5 3;
       }
 
-      .bg-3 {
-        font-size: 50px;
-        font-family: Inconsolata-Regular, Inconsolata;
-      }
-
-      .bg-4 {
-        fill: none;
-        stroke: #ff5f19;
-        stroke-miterlimit: 10;
+      .accuse-22, .accuse-24 {
         stroke-width: 4px;
       }
+
+
+
+/*! ------------------------------------------ BIG NUMBER ------------------------------------------ */
+
+.bg-1,
+.bg-2,
+.bg-3 {
+	isolation: isolate;
+	fill: #ff5f19;
+}
+
+.bg-1 {
+	font-size: 17px;
+}
+
+.bg-1,
+.bg-2 {
+	font-family: Rajdhani-Regular, Rajdhani;
+}
+
+.bg-2 {
+	font-size: 20px;
+}
+
+.bg-3 {
+	font-size: 50px;
+	font-family: Inconsolata-Regular, Inconsolata;
+}
+
+.bg-4 {
+	fill: none;
+	stroke: #ff5f19;
+	stroke-miterlimit: 10;
+	stroke-width: 4px;
+}
+
+/*! ------------------------------------------ EXTERNAL SOURCES ------------------------------------------ */
+.gif_appareance {
+	width: 380px;
+	height: 380px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.img_appareance {
+	width: auto;
+	height: auto;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+/*! ------------------------------------------ SCROLL BAR ------------------------------------------ */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,5,10,0.3); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ff5f19; 
+}
+
+
+::-webkit-scrollbar-track-piece {
+	background: #011ac2 ; 
+}
+
 
 
 
@@ -1036,8 +1237,4 @@ font-family: 'Rajdhani', sans-serif;
 }
 
 
-
-.gif_appareance{
-    width: 380px;
-    height: 380px;
-}
+X
