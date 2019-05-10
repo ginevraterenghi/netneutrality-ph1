@@ -1,0 +1,1043 @@
+
+
+/*! --------------------------------- BACKGROUND SECTION COLOR --------------------------------- */
+
+#background_blue {
+	background-color: #011ac2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#background_lightblue {
+	background-color: #e8f1f9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#background_white {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#background_deepblue {
+  background-color: #011c7c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*! ------------------------------------------ TEXT --------------------------------------------- */
+
+/*! Chapter */
+
+.chapter_blue {
+	font-size: 30pt;
+	font-family: 'Oswald', sans-serif;
+	font-style: bold;
+	color: #011ac2;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+
+.chapter_white {
+	font-size: 30pt;
+	font-family: 'Oswald', sans-serif;
+	font-style: bold;
+	color: white;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+
+/*! White text */
+
+.title_white {
+	font-size: 30pt;
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	font-style: bold;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.subtitle_white {
+	font-size: 15pt;
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	padding-left: 20px;
+}
+
+.text_white {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: white;
+	line-height: 1.6;
+	margin: 30px;
+	column-count: 2;
+	column-gap: 80px;
+    padding-bottom: 30px;
+}
+
+/*! Blue text */
+
+.title_blue {
+	font-size: 30pt;
+	font-family: 'Inconsolata', monospace;
+	color: #011ac2;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.subtitle_blue {
+	font-size: 15pt;
+	font-family: 'Inconsolata', monospace;
+	color: #011ac2;
+	padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.text_blue {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: #011ac2;
+	line-height: 1.6;
+	margin: 30px;
+	column-count: 2;
+	column-gap: 80px;
+    padding-bottom: 30px;
+}
+
+
+/*! White text */
+
+.text_grey {
+font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: #333333;
+	line-height: 1.6;
+	margin: 30px;
+	column-count: 2;
+	column-gap: 80px;
+    padding-bottom: 30px;
+}
+
+.text_grey_nocolumn {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: justify;
+	color: #333333; !important 
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+
+/*! Testi extra */
+
+.text_center {
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	color: white; 
+	font-size: 18px;
+	margin: 30px;
+}
+
+/*! Testi affiancati */
+
+
+.text_number {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: justify;
+	color: #011ac2; 
+	font-size: 35px;
+	line-height: 1.6;
+	margin: 30px;
+}
+
+
+/*! Footer text */
+
+.subtitle_footer {
+	font-family: 'Inconsolata', monospace;
+	font-size: 12pt;
+	color: white;
+	padding-top: 30px;
+}
+
+.list_footer {
+	font-family: 'Rajdhani', sans-serif;
+	color:  white;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	padding: 5px;
+	list-style-type: none;
+}
+
+
+
+/*! --------------------------------- REFERENCE --------------------------------- */
+
+.link_appareance {
+	font-family: 'Inconsolata', monospace;
+	text-align:right;
+	color: grey; 
+	font-size: 12px;
+}
+
+.text_reference{
+	font-family: 'Inconsolata', monospace;
+	text-align:right;
+	color: grey; 
+	font-size: 12px;
+	margin: 30px;
+}
+
+.text_reference_white{
+	font-family: 'Inconsolata', monospace;
+	text-align:right;
+	color: white; 
+	font-size: 12px;
+	margin: 30px;
+}
+
+.link_appareance_white {
+	font-family: 'Inconsolata', monospace;
+	text-align:right;
+	color: white; 
+	font-size: 12px;
+
+}
+
+/*! --------------------------------- RETTANGOLI - BORDER --------------------------------- */
+
+/*! Rectangle x 3 */
+
+.div_border_orange {
+	width: 100px;
+	height: 220px;	
+	border: 5px solid #F06024;
+	margin: 5;
+	padding-bottom: 20px;
+   
+}
+
+.title_border_orange {
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+    font-weight: bold;
+	color: white; 
+	font-size: 16px;
+	line-height: 1.4;
+     margin: 20px;
+}
+
+.text_border {
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	color: white; 
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/*! Rectangle Law */
+
+.div_border_blue {
+	width: 100px;
+	height: auto;	
+	border: 5px solid #011ac2;
+	margin: 5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+.text_border_black {
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	color: black; 
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.text_border_underline {
+	font-family: 'Inconsolata', monospace;
+	text-align: left;
+	color: black; 
+	text-decoration: underline solid #011ac2;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+
+/*! --------------------------------- POP UP --------------------------------- */
+
+.pop_appareance_white {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: #011ac2;
+	border: none;
+    background: white;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+    opacity: 1
+}
+.pop_appareance_white:hover {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: #011ac2;
+	border: none;
+    background: white;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+    opacity: 1
+}
+
+.pop_appareance_blue {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: white;
+	border: none;
+    background: #011ac2;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+}
+
+.pop_appareance_blue:hover {
+    font-family: 'Rajdhani', sans-serif;
+	font-size: 16px;
+	font-style: bold;
+    color: white;
+	border: none;
+    background: #011ac2;
+	border-radius: 0;
+	line-height: 0.4;
+    transition: none;
+    cursor: pointer;
+    opacity: 1
+}
+
+
+/*! ------------------------------------------ HOMEPAGE ------------------------------------------ */
+
+/*! Homepage text */
+
+.title_super{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40pt;
+	font-style: medium;
+	color: #011AC2;
+}
+
+.subtitle_super {
+	font-family: 'Inconsolata', monospace;
+	font-size: 10pt;
+	color: #011ac2;
+	display: block;
+}
+
+.label {
+	background-color: white;
+	opacity: .8;
+	padding:20px;
+}
+
+/*!  homepage structure  */
+
+.homepage {
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+
+#pattern {
+	width: auto;
+	background-position: center;
+    background-size:cover;
+	background-image: url(../img/pattern.jpg);
+}
+
+
+/*! ------------------------------------------ NAVBAR ------------------------------------------ */
+
+#appearance {
+	background-color: #011ac2;
+}
+
+#link_appearance_nav {
+	font-family: 'Inconsolata', monospace;
+	font-size: 12pt;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+/*! ------------------------------------------ TIMELINE ------------------------------------------*/
+
+/*! Timeline - container */
+
+#timeline {
+	max-width: none !important;
+	width: 85% ;
+	height: auto;
+	padding-top: 20px;
+}
+
+
+/*! Timeline - SVG css */
+
+		.timeline-1, .timeline-3 {
+			fill: #011ac2;
+		}
+
+		.timeline-10, .timeline-17, .timeline-2, .timeline-7, .timeline-9 {
+			fill: none;
+		}
+
+		.timeline-10, .timeline-2, .timeline-7 {
+			stroke: #31459c;
+		}
+
+		.timeline-10, .timeline-17, .timeline-19, .timeline-2, .timeline-4, .timeline-7, .timeline-8, .timeline-9 {
+			stroke-miterlimit: 10;
+		}
+
+		.timeline-3, .timeline-6 {
+			font-size: 22px;
+			font-family: Rajdhani-Medium, Rajdhani;
+		}
+
+		.timeline-15, .timeline-18, .timeline-19, .timeline-4, .timeline-6, .timeline-8 {
+			fill: #fff;
+		}
+
+		.timeline-17, .timeline-4 {
+			stroke: #ef4553;
+		}
+
+		.timeline-10, .timeline-4, .timeline-8, .timeline-9 {
+			stroke-width: 3px;
+		}
+
+		.timeline-15, .timeline-5 {
+			font-size: 18px;
+		}
+
+		.timeline-14, .timeline-5 {
+			fill: #010101;
+		}
+
+		.timeline-5 {
+			font-family: Rajdhani-Regular, Rajdhani;
+			cursor:pointer;
+		}
+
+		.timeline-7 {
+			stroke-width: 2px;
+		}
+
+		.timeline-19, .timeline-8, .timeline-9 {
+			stroke: #fee813;
+		}
+
+		.timeline-11 {
+			fill: #ef4553;
+		}
+
+		.timeline-12 {
+			fill: #fee813;
+		}
+
+		.timeline-13, .timeline-14 {
+			font-size: 16px;
+			font-family: Inconsolata-Regular, Inconsolata;
+		}
+
+		.timeline-13 {
+			fill: #090909;
+		}
+
+		.timeline-15 {
+			font-family: Abel-Regular, Abel;
+		}
+
+		.timeline-16 {
+			letter-spacing: -0.01em;
+		}
+
+
+/*! Timeline - Java */
+
+#timeline .btn-info {
+	opacity: 1;
+}
+
+#timeline .nascosto {
+	opacity: 0;
+}
+
+/*! ------------------------------------------ MAPPA ------------------------------------------ */
+
+/*! Map - Svg style */
+
+  .map-1, .map-2, .map-20, .map-22, .map-6, .map-8 {
+        fill: none;
+      }
+
+      .map-2, .map-3 {
+        stroke: #b1b1b1;
+      }
+
+      .map-2, .map-20, .map-22, .map-3, .map-6, .map-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .map-2 {
+        stroke-width: 0.75px;
+      }
+
+      .map-3 {
+        fill: url(#text_aa);
+      }
+
+      .map-4 {
+        fill: #586fdd;
+      }
+
+      .map-5 {
+        fill: #e4e8f9;
+      }
+
+      .map-6 {
+        stroke: #6d6e70;
+      }
+
+      .map-7 {
+        fill: #011ac2;
+      }
+
+      .map-8 {
+        stroke: #dee1f1;
+        stroke-width: 0.7px;
+      }
+
+      .map-9 {
+        fill: #041e59;
+      }
+
+      .map-10, .map-11, .map-12, .map-15, .map-19, .map-21 {
+        font-size: 16px;
+      }
+
+      .map-10, .map-11, .map-12, .map-15 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .map-10 {
+        letter-spacing: 0em;
+      }
+
+      .map-12, .map-13 {
+        letter-spacing: 0em;
+      }
+
+      .map-14 {
+        letter-spacing: 0em;
+      }
+
+      .map-15 {
+        letter-spacing: 0em;
+      }
+
+      .map-16 {
+        fill: #9ea8d4;
+      }
+
+      .map-17 {
+        fill: #868da3;
+      }
+
+      .map-18 {
+        fill: #9ba9eb;
+      }
+
+      .map-19 {
+        fill: #070808;
+      }
+
+      .map-19, .map-21 {
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .map-20 {
+        stroke: #000;
+      }
+
+      .map-22 {
+        stroke: #050505;
+        stroke-width: 0.5px;
+      }
+
+
+
+/*! ------------------------------------------ INTERENT USER ------------------------------------------ */
+
+/*! SVG style */
+
+   .user-1,
+ .user-10,
+ .user-11,
+ .user-12,
+ .user-13,
+ .user-14,
+ .user-3,
+ .user-6,
+ .user-8,
+ .user-9 {
+     fill: none;
+ }
+
+ .user-1,
+ .user-11,
+ .user-12,
+ .user-13,
+ .user-14,
+ .user-3,
+ .user-8,
+ .user-9 {
+     stroke: #30449b;
+ }
+
+ .user-1 {
+     stroke-linejoin: round;
+ }
+
+ .user-2 {
+     font-size: 16px;
+     font-family: Rajdhani-Regular, Rajdhani;
+ }
+
+ .user-3 {
+     stroke-linecap: round;
+ }
+
+ .user-10,
+ .user-11,
+ .user-12,
+ .user-13,
+ .user-14,
+ .user-3,
+ .user-6,
+ .user-8,
+ .user-9 {
+     stroke-miterlimit: 10;
+ }
+
+ .user-4 {
+     fill: gray;
+ }
+
+ .user-5 {
+     fill: #f06024;
+ }
+
+ .user-6 {
+     stroke: #f06024;
+     stroke-width: 2px;
+ }
+
+ .user-12,
+ .user-16,
+ .user-7 {
+     opacity: 0.15;
+ }
+
+ .user-11,
+ .user-12,
+ .user-13,
+ .user-14,
+ .user-8,
+ .user-9 {
+     stroke-width: 0.7px;
+ }
+
+ .user-9 {
+     stroke-dasharray: 5.04 3.02;
+ }
+
+ .user-10 {
+     stroke: #000;
+ }
+
+ .user-11 {
+     stroke-dasharray: 5.03 3.02;
+ }
+
+ .user-12 {
+     stroke-dasharray: 5 3;
+ }
+
+ .user-13 {
+     stroke-dasharray: 4.98 2.99;
+ }
+
+ .user-14 {
+     stroke-dasharray: 4.97 2.98;
+ }
+
+ .user-15 {
+     font-size: 14px;
+     font-family: Inconsolata-Regular, Inconsolata;
+ }
+
+ .user-16 {
+     fill: #b3b2b3;
+ }
+
+/*! SVG interaction */
+
+#countries:hover .country {
+	opacity: .15;
+}
+
+#countries:hover .country text {
+	opacity: 1;
+}
+
+#countries .country path {
+	mix-blend-mode: multiply;
+	opacity: .9;
+}
+
+#countries .country {
+	opacity: .5;
+}
+
+#countries .country:hover {
+	opacity: 1;
+}
+
+
+/*! ------------------------------------------ MOBILE VS FIXED ------------------------------------------ */
+
+/*! Svg style */
+
+      .subscription-1, .subscription-2, .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
+        fill: none;
+      }
+
+      .subscription-10, .subscription-2 {
+        stroke: #b1b1b1;
+      }
+
+      .subscription-10, .subscription-11, .subscription-12, .subscription-13, .subscription-2, .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .subscription-2 {
+        stroke-width: 0.75px;
+      }
+
+      .subscription-3, .subscription-4, .subscription-5, .subscription-6 {
+        stroke: #b3b2b3;
+      }
+
+      .subscription-4 {
+        stroke-dasharray: 3 2;
+      }
+
+      .subscription-5 {
+        stroke-dasharray: 3 2;
+      }
+
+      .subscription-6 {
+        stroke-dasharray: 3 2;
+      }
+
+      .subscription-7, .subscription-9 {
+        font-size: 16px;
+      }
+
+      .subscription-7 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .subscription-8 {
+        fill: gray;
+      }
+
+      .subscription-9 {
+        font-size: 14px;
+        fill: #070808;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .subscription-10 {
+        fill: url(#text_aa);
+      }
+
+      .subscription-11 {
+        fill: #9ba9eb;
+        stroke: #9ba9eb;
+      }
+
+      .subscription-12 {
+        fill: #011ac2;
+        stroke: #011ac2;
+      }
+
+      .subscription-13 {
+        fill: #011AC2;
+        stroke: #011AC2;
+      }
+
+
+
+/*! ------------------------------------------ ZERO RATING CASE ------------------------------------------ */
+
+/*! Zero rating - Svg style */
+
+
+    .zero-1 {
+        isolation: isolate;
+        font-size: 14px;
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .zero-2 {
+        fill: #58595b;
+      }
+
+      .zero-3 {
+        fill: #818181;
+      }
+
+      .zero-4 {
+        fill: none;
+        stroke: #011ac2;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }  
+
+
+/*! Zero rating - Svg interaction */
+
+#vodafone g {
+	opacity: 0.15
+}
+
+#vodafone:hover >g {
+	opacity: 1
+}
+
+#orange g {
+	opacity: 0.15
+}
+
+#orange:hover >g {
+	opacity: 1
+}
+
+#tmobile g {
+	opacity: 0.15
+}
+
+#tmobile:hover >g {
+	opacity: 1
+}
+
+#telenor g {
+	opacity: 0.15
+}
+
+#telenor:hover >g {
+	opacity: 1
+}
+
+#telia g {
+	opacity: 0.15
+}
+
+#telia:hover >g {
+	opacity: 1
+}
+
+
+#bite g {
+	opacity: 0.15
+}
+
+#bite:hover >g {
+	opacity: 1
+}
+
+#mobistar {
+	opacity: 0.15
+}
+
+#mobistar:hover >g {
+	opacity: 1
+}
+
+#polkomtel {
+	opacity: 0.15
+}
+
+#polkomtel:hover >g {
+	opacity: 1
+}
+
+
+/*!-------------------------------------------- ACCUSE TIMELINE ------------------------------------------ */
+/*! Accuse - Svg style */
+
+  .accuse-1, .accuse-10, .accuse-11, .accuse-12, .accuse-13, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-2, .accuse-4, .accuse-9 {
+        fill: none;
+      }
+
+      .accuse-1, .accuse-2 {
+        stroke: gray;
+      }
+
+      .accuse-1, .accuse-10, .accuse-11, .accuse-12, .accuse-13, .accuse-14, .accuse-15, .accuse-16, .accuse-17, .accuse-18, .accuse-2, .accuse-20, .accuse-4, .accuse-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .accuse-2 {
+        stroke-dasharray: 3.01 2.01;
+      }
+
+      .accuse-3 {
+        fill: #b3b3b3;
+      }
+
+      .accuse-10, .accuse-4, .accuse-9 {
+        stroke: #b3b3b3;
+      }
+
+      .accuse-4 {
+        stroke-width: 0.6px;
+      }
+
+      .accuse-5, .accuse-7 {
+        font-size: 12px;
+      }
+
+      .accuse-5, .accuse-7, .accuse-8 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .accuse-18, .accuse-20, .accuse-6, .accuse-7 {
+        fill: #fff;
+      }
+
+      .accuse-8 {
+        font-size: 14px;
+      }
+
+      .accuse-10 {
+        stroke-dasharray: 2.99 1.99;
+      }
+
+      .accuse-11, .accuse-15, .accuse-18 {
+        stroke: #011ac2;
+      }
+
+      .accuse-11, .accuse-12, .accuse-13, .accuse-18, .accuse-20 {
+        stroke-width: 2px;
+      }
+
+      .accuse-11, .accuse-12, .accuse-14, .accuse-18 {
+        opacity: 0.15;
+      }
+
+      .accuse-12, .accuse-13, .accuse-14, .accuse-16, .accuse-17 {
+        stroke: #ff5f19;
+      }
+
+      .accuse-13, .accuse-17, .accuse-18 {
+        stroke-dasharray: 5 3;
+      }
+
+      .accuse-13 {
+        opacity: 0.1;
+      }
+
+      .accuse-15, .accuse-16, .accuse-17 {
+        stroke-width: 4px;
+      }
+
+      .accuse-19 {
+        fill: #818181;
+      }
+
+      .accuse-20 {
+        stroke: #818181;
+      }
+
+      .accuse-21 {
+        font-size: 16px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+
+/*! ------------------------------------------ BIG NUMBER GINNI ------------------------------------------ */
+
+   .bg-1, .bg-2, .bg-3 {
+        isolation: isolate;
+        fill: #ff5f19;
+      }
+
+      .bg-1 {
+        font-size: 17px;
+      }
+
+      .bg-1, .bg-2 {
+        font-family: Rajdhani-Regular, Rajdhani;
+      }
+
+      .bg-2 {
+        font-size: 20px;
+      }
+
+      .bg-3 {
+        font-size: 50px;
+        font-family: Inconsolata-Regular, Inconsolata;
+      }
+
+      .bg-4 {
+        fill: none;
+        stroke: #ff5f19;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+
+
+/*! ------------------------------------------ FOOTER ------------------------------------------ */
+
+.footer_img {
+	height: 90px;
+	width: auto;
+	position: relative;
+	padding-top: 20px;
+	margin: 1em;
+}
+
+
+
+.gif_appareance{
+    width: 380px;
+    height: 380px;
+}
